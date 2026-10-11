@@ -5,11 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "gradio>=6.30.0",
     "ipykernel>=7.4.0",
     "matplotlib>=3.11.2",
     "mlflow>=3.17.0",
     "pandas>=3.0.6",
     "requests>=2.34.2",
+    "streamlit>=1.65.0",
     "torch>=2.7.1",
     "torchinfo>=1.8.0",
     "torchvision>=0.22.1",
