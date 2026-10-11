@@ -10,3 +10,4 @@ wheels/
 .venv
 /data
 mlruns.db
+/notebooks/mlruns
