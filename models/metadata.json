@@ -1,0 +1,21 @@
+{
+  "model_name": "FoodVision Mini",
+  "architecture": "EfficientNetB2 (pretrained, feature extractor)",
+  "task": "image-classification",
+  "class_names": [
+    "pizza",
+    "steak",
+    "sushi"
+  ],
+  "num_classes": 3,
+  "dataset": "pizza_steak_sushi_20_percent",
+  "weights_file": "09_pretrained_effnetb2_feature_extractor_pizza_steak_sushi_20_percent.pth",
+  "framework": "torch 2.7.1+cu118",
+  "seed": 42,
+  "test_loss": 0.2691,
+  "test_acc": 0.9472,
+  "number_of_parameters": 7705221,
+  "model_size_mb": 29.9,
+  "mlflow_run_id": "839f2d52576d47c5b6a936caff4eb11f",
+  "trained_on": "2026-10-11"
+}
